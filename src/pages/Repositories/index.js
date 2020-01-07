@@ -11,12 +11,13 @@ import {
   CenterContent,
   Item,
   ItemLeft,
-  ItemRight
+  ItemRight,
+  BaseButton
+
 } from '../../global/styles.global';
 
 import {
   Avatar,
-  BaseButton
 } from './styles'
 
 const Repositories = props => {
@@ -82,10 +83,12 @@ const Repositories = props => {
                     <Title>{item.name}</Title>
                   </ItemLeft>
                   <ItemRight>
-                    <Button
-                      content="Detalhes"
-                      color="blue"
-                    />
+                    <Link to={`/detalhes`}>
+                      <Button
+                        content="Detalhes"
+                        color="blue"
+                      />
+                    </Link>
                   </ItemRight>
                 </Item>
               )

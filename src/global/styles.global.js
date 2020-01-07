@@ -64,3 +64,7 @@ export const ItemRight = styled.div`
   justify-content: flex-end;
   align-items: center;
 `;
+
+export const BaseButton = styled.div`
+  position: absolute;
+`;

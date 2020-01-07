@@ -8,6 +8,4 @@ export const Avatar = styled.img`
   margin-bottom: 20px;
 `;
 
-export const BaseButton = styled.div`
-  position: absolute;
-`;
+
